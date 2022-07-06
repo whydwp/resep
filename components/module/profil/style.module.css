@@ -1,0 +1,78 @@
+@font-face /*perintah untuk memanggil font eksternal*/ {
+  font-family: "airbnb_md"; /*memberikan nama bebas untuk font*/
+  src: url("../../airbnb-cereal-font/AirbnbCereal_W_Md.otf"); /*memanggil file font eksternalnya di folder nexa*/
+}
+.profilImage {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 172px;
+  height: 172px;
+}
+.textProfil {
+  font-family: airbnb_md;
+  margin-top: 10px;
+}
+.garis{
+  border-top: 1.5px rgb(143, 142, 142) solid;
+width: 100%;
+}
+.choase,
+.choase a {
+  border: none;
+  color: #222222;
+  text-decoration: none;
+  font-family: airbnb_md;
+}
+.captionImage {
+  position: absolute;
+  bottom: 0px;
+  font-family: airbnb_md;
+  font-weight: 500;
+  color: #f6f5f4;
+  font-size: 28px;
+  text-shadow: 2px 2px #252424;
+}
+.icondel {
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  margin-right: 35px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background-color: rgb(252, 0, 63);
+}
+.iconedit {
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  border: 2px solid #222222;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.pen {
+  width: 25px;
+  height: 25px;
+}
+.del {
+  width: 25px;
+  height: 25px;
+  color: rgb(41, 25, 25);
+}
+.uploads {
+  display: inline-block;
+  background-color: #9b9b9b;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.inputName {
+  width: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
